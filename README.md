@@ -22,7 +22,7 @@ A modern, high-performance portfolio site designed for speed, accessibility, and
 4. Deployment will happen automatically on every push!
 
 ## 📄 Customization
-- **Resume**: Replace `Mazhar_Shams_Resume.pdf` with your updated resume.
+- **Resumé**: Replace `Mazhar_Shams_Resume.pdf` with your updated resumé.
 - **Content**: Edit `index.html` to update your name, bio, and social links.
 - **Projects**: Change the project sections in `index.html` and add images in the `/images` folder (if created).
 
