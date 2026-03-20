@@ -1,0 +1,12 @@
+# OS related files
+Thumbs.db
+Desktop.ini
+
+# Node related files (if any)
+node_modules/
+dist/
+build/
+.env
+
+# VS Code
+.vscode/
