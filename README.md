@@ -1,4 +1,4 @@
-# Mazhar Shams Portfolio
+# Mazhar Shams | Data Specialist Portfolio
 
 A modern, high-performance portfolio site designed for speed, accessibility, and high visual impact.
 
@@ -24,7 +24,7 @@ A modern, high-performance portfolio site designed for speed, accessibility, and
 ## 📄 Customization
 - **Resumé**: Replace `Mazhar_Shams_Resume.pdf` with your updated resumé.
 - **Content**: Edit `index.html` to update your name, bio, and social links.
-- **Projects**: Change the project sections in `index.html` and add images in the `/images` folder (if created).
+- **Experience**: Update the Professional Experience section in `index.html` with your latest roles and responsibilities.
 
 ## 🛠 Tech Stack
 - **HTML5**: Semantic structure.
