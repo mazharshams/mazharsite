@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- LOGO HOVER EFFECT ---
     const logo = document.querySelector('.logo');
     logo.addEventListener('mouseenter', () => {
-        logo.innerHTML = 'MAZHAR<span>.</span>';
+        logo.innerHTML = 'MAZHAR SHAMS<span>.</span>';
     });
     logo.addEventListener('mouseleave', () => {
         logo.innerHTML = 'MS<span>.</span>';
