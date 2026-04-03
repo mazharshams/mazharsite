@@ -15,7 +15,7 @@ export default async function handler(req, res) {
             return res.status(400).json({ error: 'Missing image data' });
         }
 
-        const prompt = `You are a receipt data extraction assistant. Analyze this receipt image and extract all meaningful data into a structured JSON object.
+        const prompt = `You are a receipt data extraction assistant. Analyze this receipt image or document and extract all meaningful data into a structured JSON object.
 
 Return ONLY valid JSON (no markdown, no code fences, no explanation) with this structure:
 {
