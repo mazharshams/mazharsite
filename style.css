@@ -382,6 +382,38 @@ header {
     font-weight: 600;
 }
 
+.projects-grid-single {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.project-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+
+.project-icon {
+    color: var(--accent-primary);
+    margin-bottom: 0.5rem;
+    opacity: 0.7;
+}
+
+.project-arrow {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    color: var(--text-muted);
+    transition: var(--transition-base);
+}
+
+.project-card-link:hover .project-arrow {
+    color: var(--accent-primary);
+    transform: translateX(5px);
+}
+
 /* --- RESUME --- */
 
 .resume-section {

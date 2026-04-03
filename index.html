@@ -24,7 +24,7 @@
             <ul class="nav-links">
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#resume">Resumé</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -39,7 +39,7 @@
                 <h1>Mazhar <span class="gradient-text">Shams</span></h1>
                 <p class="hero-subtitle">Data Specialist focused on inventory management, automated data workflows, and efficient operational systems.</p>
                 <div class="hero-btns">
-                    <a href="#experience" class="btn btn-primary">View Experience</a>
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
                     <a href="#contact" class="btn btn-secondary">Get in Touch</a>
                 </div>
             </div>
@@ -69,47 +69,42 @@
         </section>
 
         <!-- Projects Section -->
-        <section id="experience" class="projects reveal">
+        <section id="projects" class="projects reveal">
             <div class="container">
                 <div class="section-title">
-                    <h2>Professional Experience</h2>
+                    <h2>Projects</h2>
                     <div class="underline"></div>
                 </div>
-                <div class="projects-grid">
-                    <!-- Experience 1 -->
-                    <div class="project-card">
+                <div class="projects-grid projects-grid-single">
+                    <a href="/receipt-extractor" class="project-card project-card-link" id="receipt-extractor-card">
                         <div class="project-img-placeholder">
-                            <span class="project-label">Inventory & Operations</span>
+                            <div class="project-icon">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                    <polyline points="14 2 14 8 20 8"/>
+                                    <line x1="16" y1="13" x2="8" y2="13"/>
+                                    <line x1="16" y1="17" x2="8" y2="17"/>
+                                    <polyline points="10 9 9 9 8 9"/>
+                                </svg>
+                            </div>
+                            <span class="project-label">AI-Powered</span>
                         </div>
                         <div class="project-info">
-                            <h3>Rahee Food Products LLC</h3>
-                            <p class="role-title">Inventory Management Associate | 2020 – Present</p>
-                            <ul>
-                                <li>Managed day-to-day inventory operations using ShopKeep by Lightspeed.</li>
-                                <li>Executed pricing updates and ensured shelf-to-system consistency, improving checkout accuracy.</li>
-                                <li>Reduced point-of-sale discrepancies through meticulous stock level maintenance.</li>
-                            </ul>
+                            <h3>Receipt Data Extractor</h3>
+                            <p>Upload a receipt image and let AI extract structured data—items, prices, totals, and more—into clean JSON format.</p>
                             <div class="project-tech">
-                                <span>ShopKeep</span>
-                                <span>Lightspeed</span>
-                                <span>Operations</span>
+                                <span>Gemini AI</span>
+                                <span>OCR</span>
+                                <span>JSON</span>
                             </div>
                         </div>
-                    </div>
-                    <!-- Experience 2 (Optional/Placeholder if needed, but I'll focus on the main one) -->
-                    <div class="project-card">
-                        <div class="project-img-placeholder">
-                            <span class="project-label">Customer Service</span>
+                        <div class="project-arrow">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"/>
+                                <polyline points="12 5 19 12 12 19"/>
+                            </svg>
                         </div>
-                        <div class="project-info">
-                            <h3>Delivery & Logistics</h3>
-                            <p>Efficiently processing transactions and fulfilling orders to ensure timely and reliable service as a delivery associate.</p>
-                            <div class="project-tech">
-                                <span>Logistics</span>
-                                <span>Service</span>
-                            </div>
-                        </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </section>
