@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <text 
+    x="50%" 
+    y="52%" 
+    dominant-baseline="middle" 
+    text-anchor="middle" 
+    fill="#f3f4f6" 
+    style="font-family: -apple-system, system-ui, 'Outfit', 'Inter', sans-serif; font-weight: 800; font-size: 240px; letter-spacing: -10px;"
+  >
+    MS<tspan fill="#6366f1">.</tspan>
+  </text>
+</svg>
