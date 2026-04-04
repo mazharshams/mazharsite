@@ -33,4 +33,4 @@ A modern, high-performance portfolio site designed for speed, accessibility, and
 - **Vercel**: Deployment & hosting.
 
 ---
-Built with passion & precision. All rights reserved &copy; 2024.
+Built with passion & precision. All rights reserved &copy; 2026.
