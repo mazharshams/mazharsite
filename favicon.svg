@@ -5,7 +5,7 @@
     dominant-baseline="middle" 
     text-anchor="middle" 
     fill="#f3f4f6" 
-    style="font-family: -apple-system, system-ui, 'Outfit', 'Inter', sans-serif; font-weight: 800; font-size: 240px; letter-spacing: -10px;"
+    style="font-family: 'Outfit', -apple-system, system-ui, sans-serif; font-weight: 700; font-size: 240px; letter-spacing: -2px;"
   >
     MS<tspan fill="#6366f1">.</tspan>
   </text>
