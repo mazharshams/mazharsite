@@ -43,7 +43,7 @@ Return ONLY valid JSON (no markdown, no code fences, no explanation) with this s
 
 If a field is not visible on the receipt, omit it. Only include fields you can confidently extract.`;
 
-        const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
+        const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`;
 
         const response = await fetch(apiUrl, {
             method: 'POST',
@@ -53,16 +53,16 @@ If a field is not visible on the receipt, omit it. Only include fields you can c
                     parts: [
                         { text: prompt },
                         {
-                            inlineData: {
-                                mimeType: mimeType,
+                            inline_data: {
+                                mime_type: mimeType,
                                 data: image
                             }
                         }
                     ]
                 }],
-                generationConfig: {
+                generation_config: {
                     temperature: 0.1,
-                    maxOutputTokens: 4096
+                    max_output_tokens: 4096
                 }
             })
         });
@@ -70,7 +70,8 @@ If a field is not visible on the receipt, omit it. Only include fields you can c
         if (!response.ok) {
             const errData = await response.json();
             console.error('Gemini API error:', errData);
-            return res.status(502).json({ error: 'AI service returned an error. Please try again.' });
+            const errorMessage = errData.error?.message || 'AI service returned an error.';
+            return res.status(response.status).json({ error: `${errorMessage} (Status: ${response.status})` });
         }
 
         const data = await response.json();
