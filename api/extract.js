@@ -43,7 +43,7 @@ Return ONLY valid JSON (no markdown, no code fences, no explanation) with this s
 
 If a field is not visible on the receipt, omit it. Only include fields you can confidently extract.`;
 
-        const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
+        const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent?key=${apiKey}`;
 
         const response = await fetch(apiUrl, {
             method: 'POST',
